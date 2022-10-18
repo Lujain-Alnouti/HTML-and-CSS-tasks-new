@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+      <h1>
+        Add Product Screen
+      </h1>
+      <div>
+        <img src="img/D.PNG" alt="">
+        <p>Welcome to the <span>Add Product Screen</span> .</p> 
+        <p>Please fill in product information.</p> 
+        <br> <hr>
+      </div>
+
+      <form action="https://www.google.com/" target="_blank" method="get">
+       <label for="name"> Name</label><br>
+       <input type="text" id="name" ><br>
+       <label for="PR"> Price</label><br>
+       <input type="number" id="PR" min="1" max="999"><br>
+       <br>
+       <br>
+       <label> Category : </label> <br>
+       <input type="radio" id="C" name="cat" value="clay">
+       <label for="F"> Clay</label><br>
+       <input type="radio" id="W" name="cat" value="wood">
+       <label for="M"> Wood</label><br> <br>
+       <textarea name="description" id="D" cols="10" rows="6"> write product description</textarea>
+       
+       
+       
+       <hr>
+
+       <label > Your favourite material :</label> <br>
+       <input type="checkbox" name="M1" id="M1">
+       <label for="M1">Clay</label> <br>
+       <input type="checkbox" name="M2" id="M2">
+       <label for="M2">Wood</label> <br>
+       <input type="checkbox" name="M3" id="M3">
+       <label for="M3">Glass</label> <br>
+       <br>  <hr>
+       <!--  <input type="submit" name="S" id="S" value="Add">  -->
+       <label for="SE">dropdown list</label> <br>
+       <select name="SE" id="SE">
+        <option value="a"> A</option>
+        <option value="b"> B</option>
+        <option value="c"> C</option>
+        <option value="d"> D</option>
+       </select>
+       <br><hr>
+     
+      <input type="button" onclick="alert('Done')" value="Add">  
+      <input type="submit" value="Submit"> 
+
+      </form>
+
+    </body>
+</html>
