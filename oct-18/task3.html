@@ -3,105 +3,174 @@
     <head>
         <title>task3</title>
     </head>
-    <body><form>
-        <form action="" method="get">
-            <legend align="center"><b>Account Information</b> </legend>
-            <br>
-            <label for="name"> <b>Login Name*</b> </label> 
-             <input type="text" id="name"> <br>
+    <body><form action="https://www.google.com/" method="get">
+        
+            
+            <br> <table>
+                <caption><legend align="center"><b>Account Information</b> </legend></caption>
+                <tr>
+                    <th><label for="name"> <b>Login Name*</b> </label> </th>
+                    <td><input type="text" id="name"> <br>
+                    </td>
+                </tr>
+            <tr>
+                <th><label for="pass"><b>Password*</b> </label></th>
+                <td><input type="password" id="pass"> <br>
+                </td>
+            </tr>
+            
+             <tr>
+                <th><label for="cpass"><b>Confirm Password*</b></label> </th>
+                <td> <input type="password" id="cpass"> <br></td>
+            </tr>
+             
+            
+             
+             <tr>
+                <th><label for="email"><b>Email*</b> </label> </th>
+                <td><input type="email" id="email"> <br></td>
+            </tr>
+             
+             
 
-             <label for="pass"><b>Password*</b> </label> 
-             <input type="password" id="pass"> <br>
+             <tr>
+                <th><label for="cemail"><b>Confirm Email*</b></label> </th>
+                <td><input type="email" id="cemail"></td>
+            </tr>
+            </table>
+    
+        <table>
+           <caption><legend align="center"> <b> Contact Information</b></legend></caption> 
+                    <tr>
+                <th><label for="fname"><b>First Name*</b></label> </th>
+                <td><input type="text" id="fname"> </td>
+            </tr>
+            
+             <tr>
+                <th><label for="lname"><b>CLast Name*</b></label></th>
+            <td><input type="text" id="lname"> </td>
+             </tr>
 
-             <label for="cpass"><b>Confirm Password*</b></label> 
-             <input type="password" id="cpass"> <br>
+              
+             
 
-             <label for="email"><b>Email*</b> </label> 
-             <input type="email" id="email"> <br>
+             <tr>
+                <th><label for="add1"><b>Address 1*</b></label></th>
+            <td><input type="text" id="add1"></td>
+             </tr>
 
-             <label for="cemail"><b>Confirm Email*</b></label> 
-             <input type="email" id="cemail"> <br>
-        </form>
-        <br>
+              
+              <br>
 
-        <form action="" method="get">
-            <legend align="center"> <b> Contact Information</b></legend>
-            <br>
-            <label for="fname"><b>First Name*</b></label> 
-             <input type="text" id="fname"> <br>
+             <tr>
+                <th><label for="add2"><b>Address 2*</b></label></th>
+            <td><input type="text" id="add2"></td>
+             </tr>
 
-             <label for="lname"><b>CLast Name*</b></label> 
-             <input type="text" id="lname"> <br>
+              
+              <br>
 
-             <label for="add1"><b>Address 1*</b></label> 
-             <input type="text" id="add1"> <br>
+             <tr>
+                <th> <label for="city"><b>City*</b></label> </th>
+            <td><input type="text" id="city"></td>
+             </tr>
 
-             <label for="add2"><b>Address 2*</b></label> 
-             <input type="text" id="add2"> <br>
+            
+              <br>
 
-             <label for="city"><b>City*</b></label> 
-             <input type="text" id="city"> <br>
-
-             <label for=""><b>State or Province*</b></label>
-             <select name="state" id="s">
+             <tr>
+                <th> <label for=""><b>State or Province*</b></label></th>
+            <td><select name="state" id="s">
                 <option selected disabled>Select</option>
                 <option value="i">Irbid</option>
                 <option value="a">Amman</option>
                 <option value="j">Jerash</option>
-             </select> <br>
-             
-             <label for="zip"><b>Zip*</b></label> 
-             <input type="text" id="zip"> <br>
-
-             <label for="coun"><b>Country*</b></label> 
-             <input type="text" id="coun"> <br>
-
-             <label for=""><b>Gender *</b></label>
-             <input type="radio" id="f" name="g">
-             <label for="f">Female</label>
-
-             <input type="radio" id="m" name="g">
-             <label for="m">Male</label> <br>
-
-             </form>
-             <br>
-
-             <form action="">
-                <legend align="center"> <b>Misc.Information</b> </legend>
-                <br>
-                <label for=""><b>Annual Household Income</b></label>
-                <select name="inc" id="inc">
-                    <option selected disabled>Select</option>
-                    <option >7985</option>
-                    <option >4124</option>
-                    <option >86321</option>
-                </select> <br>
-
-                <label for="int"><b>Interests</b></label>
-                <input type="checkbox" id="sh" name="sh">
-                <label for="sh">Shopping/Fashion</label>
-
-                <input type="checkbox" id="sp" name="sp">
-                <label for="sp">Sports</label>
-
-                <input type="checkbox" id="tr" name="tr">
-                <label for="tr">Travel</label> <br>
-
-                <label for="color"><b>Eye Color</b></label>
-                <input type="checkbox" id="r" name="r">
-                <label for="r">Red</label>
-
-                <input type="checkbox" id="g" name="g">
-                <label for="g">Green</label>
-
-                <input type="checkbox" id="br" name="br">
-                <label for="br">Brown</label>
-
-                <input type="checkbox" id="b" name="b">
-                <label for="b">Blue Gold</label> <br>
+             </select></td>
+             </tr>
 
             
-             </form>
+              <br>
+             
+             <tr>
+                <th><label for="zip"><b>Zip*</b></label> </th>
+            <td><input type="text" id="zip"></td>
+             </tr>
+
+             
+              <br>
+
+             <tr>
+                <th> <label for="coun"><b>Country*</b></label> </th>
+            <td> <input type="text" id="coun"></td>
+             </tr>
+
+            
+             <br>
+
+             <tr>
+                <th><label for=""><b>Gender *</b></label></th>
+            <td><input type="radio" id="f" name="g">
+                <label for="f">Female</label>
+   
+                <input type="radio" id="m" name="g">
+                <label for="m">Male</label> <br></td>
+             </tr>
+             
+             
+            </table>
+             
+             <br>
+
+             <table>
+                <caption><legend align="center"> <b>Misc.Information</b> </legend></caption>
+                
+                <br>
+                <tr>
+                    <th><label for=""><b>Annual Household Income</b></label></th>
+                    <td><select name="inc" id="inc">
+                        <option selected disabled>Select</option>
+                        <option >7985</option>
+                        <option >4124</option>
+                        <option >86321</option>
+                    </select></td>
+                </tr>
+                
+                 <br>
+
+                <tr>
+                    <th> <label for="int"><b>Interests</b></label></th>
+                    <td><input type="checkbox" id="sh" name="sh">
+                        <label for="sh">Shopping/Fashion</label>
+        
+                        <input type="checkbox" id="sp" name="sp">
+                        <label for="sp">Sports</label>
+        
+                        <input type="checkbox" id="tr" name="tr">
+                        <label for="tr">Travel</label> <br>
+        </td>
+                </tr>
+
+               
+                
+                <tr>
+                    <th><label for="color"><b>Eye Color</b></label></th>
+                    <td><input type="checkbox" id="r" name="r">
+                        <label for="r">Red</label>
+        
+                        <input type="checkbox" id="g" name="g">
+                        <label for="g">Green</label>
+        
+                        <input type="checkbox" id="br" name="br">
+                        <label for="br">Brown</label>
+        
+                        <input type="checkbox" id="b" name="b">
+                        <label for="b">Blue Gold</label> <br></td>
+                </tr>
+
+                
+                
+
+            </table> <br>
             
              <input type="submit" value="Submit">
              <input type="reset" value="Reset">
