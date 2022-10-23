@@ -1,0 +1,28 @@
+body{background-color:antiquewhite;}
+.orange-highlight{
+    background-color:rgb(240, 187, 89);
+    font-weight: bold;
+}
+.yellow-highlight{
+    background-color:rgb(250, 250, 127);
+    font-weight: bold;
+}
+.first-div{
+    border: 2px solid black;
+    background-color: aliceblue;
+    width:650px;
+    margin-top:30px ;
+}
+
+#sec-div{
+    border: 2px dotted red;
+    background-color: aliceblue;
+    width:650px;
+    margin-top:30px ;
+}
+
+#par{
+    color:red;
+    border:2px dotted red;
+    margin:10px;
+}
