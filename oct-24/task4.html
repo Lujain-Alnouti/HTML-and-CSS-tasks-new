@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid2</title>
+    <style>
+
+        .black{
+            grid-area:blacke;
+            background-color:black;
+        }
+
+        .orange{
+            grid-area:orangee;
+            background-color:orange;
+        }
+
+        .green{
+            grid-area:greene;
+           background-color:green;
+        }
+
+        .blue{
+            grid-area:bluee;
+            background-color:blue;
+        }
+
+        
+         .grid-container2{
+            display:grid;
+            grid-template-columns:auto;
+            grid-template-rows:60px 210px 115px ;
+            grid-template-areas: 
+            ' blacke blacke blacke blacke blacke blacke'
+            'orangee orangee orangee orangee greene greene'
+            'bluee bluee bluee bluee  bluee bluee';
+            row-gap:10px;     
+            column-gap:10px;     
+            
+        }
+        .grid-container2>div{
+            text-align:center;
+            color: white;
+            font-size:50px;
+            text-align: center;
+                   
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container2">
+        <div class="black"></div>
+        <div class="orange"> </div>
+        <div class="green"></div>
+        <div class="blue"></div>
+
+
+    </div>
+</body>
+</html>
