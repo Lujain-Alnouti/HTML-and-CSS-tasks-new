@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>absolute</title>
+    <style>
+        .abs{
+        position:absolute;
+        top: 5px;
+        right: 5px;
+        width:200px;
+        height:200px;
+        background-color:cadetblue;
+    }
+
+    .rel{
+        position: relative;
+        top:300px;
+        left:10px;
+        width:500px;
+        height:400px;
+        background-color: cornsilk;
+    }
+
+    .abs2{
+        position:absolute;
+        bottom: 10px;
+        right: 10px;
+        width:150px;
+        height:150px;
+        background-color:cadetblue;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="abs"></div>
+    <div>
+        <div class="rel">
+            <div class="abs2"></div>
+        </div>
+    </div>
+</body>
+</html>
