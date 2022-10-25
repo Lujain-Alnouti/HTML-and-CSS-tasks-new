@@ -1,0 +1,36 @@
+.div{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    margin-left:60px;
+   
+}
+    
+@media only screen and (min-width:0px) and (max-width:480px){
+    /* mobile */
+
+    .div{
+        display:block;
+        height: 241px;
+        width:241px;
+        margin-left:30px;
+        margin-top:15px;
+       
+    }
+}
+
+ @media only screen and (min-width:481px) and (max-width:768px){
+    /* tablet */
+    .block{
+        display:block;
+        
+    } 
+    
+    .div{
+        display:inline-block;
+        width:300px;
+        height:300px;
+        margin-left:50px;
+        margin-top:20px;
+    }
+} 
