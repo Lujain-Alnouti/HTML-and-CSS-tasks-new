@@ -6,34 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task2-26-2022</title>
     <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+
+    <style>
+        .border{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Firstname</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+    <table class="table table-bordered">
+        
+            <tr>
+            <th style="text-align:center;">Firstname</th>
+            <th style="text-align:center;">Lastname</th>
+            <th  style="text-align:center;">Mobile Number</th>
+            <th style="text-align:center;">Email</th>
           </tr>
-        </thead>
+      
         <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+          <tr   class="table-danger">
+            <td scope="row" >John</td>
+            <td  >Doe</td>
+            <td>0777777777</td>
+            <td>john@example.com</td>
           </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+          <tr class="table-warning">
+            <td scope="row">Mary</td>
+            <td >Moe</td>
+            <td>0777777777</td>
+            <td>Mary@example.com</td>
           </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+          <tr class="table-success">
+            <td scope="row" >July</td>
+            <td >Dooley</td>
+            <td >0777777777</td>
+            <td >july@example.com</td>
           </tr>
         </tbody>
       </table>
